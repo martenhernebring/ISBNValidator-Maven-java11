@@ -24,6 +24,12 @@
   <!--  The website for the project -->
   <url>http://validator.com.yrgo</url>
 
+  <!-- Adding encoding utf-8 -->
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
   <!--  And now, a list of Maven projects that we depend upon -->
   <dependencies>
 
